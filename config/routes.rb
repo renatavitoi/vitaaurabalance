@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  #get 'home/index'
+  get 'home/index'
   get 'home/meinkonto'
   get 'home/wunschliste'
   get 'home/kontakt'
@@ -8,10 +8,6 @@ Rails.application.routes.draw do
   get 'home/versandkosten'
   get 'home/datenschutz'
   get 'home/impressum'
-
-
-
-
   root 'home#index'
   # For details on the DSL available
 end

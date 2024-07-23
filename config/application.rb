@@ -38,5 +38,10 @@ module Vitaaurabalance
 
     # Don't generate system test files.
     config.generators.system_tests = nil
+    config.assets.precompile += %w( application.scss)
+     config.assets.enabled = true
+   
   end
 end
+
+

@@ -49,3 +49,6 @@ Rails.application.config.assets.paths << Rails.root.join("node_modules/bootstrap
 Rails.application.config.assets.paths << Rails.root.join("node_modules/bootstrap/dist/js")
 
 Rails.application.config.assets.precompile << "bootstrap.min.js"
+Rails.application.config.assets.precompile += %w( application.css )
+Rails.application.config.assets.precompile += %w( controllers/application.js )
+

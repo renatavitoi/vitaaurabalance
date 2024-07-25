@@ -4,7 +4,6 @@ ruby "3.3.4"
 
 gem "bootstrap"
 gem "jquery-rails"
-gem 'sassc-rails', '~> 2.1'
 gem "rails", "~> 7.1.3", ">= 7.1.3.4"
 gem "sprockets-rails"
 gem "sqlite3", "~> 1.4"
@@ -13,17 +12,16 @@ gem "importmap-rails"
 gem "turbo-rails"
 gem "stimulus-rails"
 gem "jbuilder"
+gem "cssbundling-rails"
+gem 'sassc'
 gem "tzinfo-data", platforms: %i[ windows jruby ]
 gem "bootsnap", require: false
 
-
 group :development, :test do
-  # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem "debug", platforms: %i[ mri windows ]
 end
 
 group :development do
-  # Use console on exceptions pages [https://github.com/rails/web-console]
   gem "web-console"
 end
 
@@ -31,6 +29,7 @@ group :development do
   gem "better_errors"
   gem "binding_of_caller"
 end
+
 
 
   

@@ -2,16 +2,40 @@
 
 # Version of your assets, change this if you want to expire all your assets.
 Rails.application.config.assets.paths << Rails.root.join('node_modules')
+Rails.application.config.assets.paths << Rails.root.join("node_modules/bootstrap/dist/js")
+Rails.application.config.assets.paths << Rails.root.join("node_modules/bootstrap-icons/font")
+Rails.application.config.assets.paths << Rails.root.join("node_modules/bootstrap/dist/js")
 Rails.application.config.assets.version = '1.0'
 Rails.application.config.assets.paths << Rails.root.join('app', 'assets', 'images')
+Rails.application.config.assets.paths << Rails.root.join("node_modules/bootstrap/dist/js")
+Rails.application.config.assets.paths << Rails.root.join("node_modules/bootstrap-icons/font")
+Rails.application.config.assets.paths << Rails.root.join("node_modules/bootstrap/dist/js")
 Rails.application.config.assets.paths << Rails. root.join('app', 'assets', 'javascripts')
+Rails.application.config.assets.paths << Rails.root.join("node_modules/bootstrap/dist/js")
+Rails.application.config.assets.paths << Rails.root.join("node_modules/bootstrap-icons/font")
+Rails.application.config.assets.paths << Rails.root.join("node_modules/bootstrap/dist/js")
 Rails.application.config.assets.paths << Rails.root.join('vendor', 'assets', 'javascripts')
+Rails.application.config.assets.paths << Rails.root.join("node_modules/bootstrap/dist/js")
+Rails.application.config.assets.paths << Rails.root.join("node_modules/bootstrap-icons/font")
+Rails.application.config.assets.paths << Rails.root.join("node_modules/bootstrap/dist/js")
 Rails.application.config.assets.paths << Rails.root.join('vendor', 'assets', 'stylesheets')
+Rails.application.config.assets.paths << Rails.root.join("node_modules/bootstrap/dist/js")
+Rails.application.config.assets.paths << Rails.root.join("node_modules/bootstrap-icons/font")
+Rails.application.config.assets.paths << Rails.root.join("node_modules/bootstrap/dist/js")
 Rails.application.config.assets.paths << Rails.root.join('app', 'assets', 'config')
+Rails.application.config.assets.paths << Rails.root.join("node_modules/bootstrap/dist/js")
+Rails.application.config.assets.paths << Rails.root.join("node_modules/bootstrap-icons/font")
+Rails.application.config.assets.paths << Rails.root.join("node_modules/bootstrap/dist/js")
 
 # Add additional assets to the asset load path.
 # Rails.application.config.assets.paths << Emoji.images_path
+Rails.application.config.assets.paths << Rails.root.join("node_modules/bootstrap/dist/js")
+Rails.application.config.assets.paths << Rails.root.join("node_modules/bootstrap-icons/font")
+Rails.application.config.assets.paths << Rails.root.join("node_modules/bootstrap/dist/js")
 Rails.application.config.assets.paths << Rails.root.join('app', 'assets', 'config')
+Rails.application.config.assets.paths << Rails.root.join("node_modules/bootstrap/dist/js")
+Rails.application.config.assets.paths << Rails.root.join("node_modules/bootstrap-icons/font")
+Rails.application.config.assets.paths << Rails.root.join("node_modules/bootstrap/dist/js")
 
 
 # Precompile additional assets.
@@ -20,4 +44,8 @@ Rails.application.config.assets.paths << Rails.root.join('app', 'assets', 'confi
 # Rails.application.config.assets.precompile += %w( admin.js admin.css )
 
 puts Rails.application.config.assets.paths.inspect
+Rails.application.config.assets.paths << Rails.root.join("node_modules/bootstrap/dist/js")
+Rails.application.config.assets.paths << Rails.root.join("node_modules/bootstrap-icons/font")
+Rails.application.config.assets.paths << Rails.root.join("node_modules/bootstrap/dist/js")
 
+Rails.application.config.assets.precompile << "bootstrap.min.js"

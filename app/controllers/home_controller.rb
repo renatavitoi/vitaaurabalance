@@ -8,6 +8,9 @@ class HomeController < ApplicationController
   def meinkonto
   end
 
+  def sonderwunsche
+  end
+
   def kontakt
   end 
 
@@ -66,6 +69,9 @@ class HomeController < ApplicationController
   end
 
   def accessoires
+  end
+
+   def colliers_ketten_anhanger
   end
 
   def ringe

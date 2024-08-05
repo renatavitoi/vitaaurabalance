@@ -1,13 +1,13 @@
 <nav class="navbar bg-body-tertiary fixed-top">
   <div class="container-fluid">
     <%= image_tag 'vitaaurabalance-logo.jpg' %>
-    <div class="d-flex align-items-center ms-auto">
-      <a class="nav-link active me-2" aria-current="page" href="#">Wunschliste</a>
-      <a class="nav-link active me-2" aria-current="page" href="#">Über uns</a>
-      <a class="nav-link active me-2" aria-current="page" href="#">Kontakt</a>
-      <a class="nav-link active me-2" aria-current="page" href="#">Sonderwünsche</a>
+    <div class="d-flex align-items-center ms-auto me-3">
+      <%= link_to "Wunschliste", home_wunschliste_path, class: "nav-link active me-2" %>
+      <%= link_to"Über uns", home_uberuns_path, class: "nav-link active me-2" %>
+      <%= link_to "Kontakt", home_kontakt_path, class: "nav-link active" %>
+      <%= link_to "Sonderwünsche", home_sonderwunsche_path, class: "nav-link active me-2" %>
       <div class="d-flex align-items-center ms-auto">
-      <ul class="navbar-nav d-flex flex-row align-items-center mb-2 mb-lg-0">
+        <ul class="navbar-nav d-flex flex-row align-items-center mb-2 mb-lg-0">
         <li class="nav-item me-3">
           <%= link_to '<i class="fas fa-search"></i>'.html_safe, '#', class: 'nav-link' %>
         </li>
@@ -51,37 +51,40 @@
           </ul>
         </li>
         <li class="nav-item"> 
-          <a class="nav-link" href="#">Zopfgummis und Zopfrüschen</a> 
+         <%= link_to 'Zopfgummis und Zopfrüschen', home_zopfgummi_zopfruschen_path, class: 'nav-link' %>
         </li> 
         <li class="nav-item"> 
           <a class="nav-link" href="#">Haarclips und Magneclips</a> 
+            <%= link_to 'Zopfgummis und Zopfrüschen', home_zopfgummi_zopfruschen_path, class: 'nav-link' %>
         </li> 
         <li class="nav-item"> 
-          <a class="nav-link" href="#">Klappspangen und Zopfhalter</a> 
+           <%= link_to 'Klappspangen und Zopfhalter', home_klappspangen_zopfhalter_path, class: 'nav-link' %>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Accessories</a> 
+          <%= link_to 'Accessories', home_accessories_path, class: 'nav-link' %> 
         </li> 
         <li class="nav-item"> 
-          <a class="nav-link" href="#"> Colliers, Ketten, Anhänger</a> 
+          <li class="nav-item"> 
+            <%= link_to 'Colliers, Ketten, Anhänge', home_colliers_ketten_anhanger_path, class: 'nav-link' %>  
+          </li>
         </li>
         <li class="nav-item"> 
-          <a class="nav-link" href="#">Ringe</a> 
+           <%= link_to 'Ringe', home_ringe_path, class: 'nav-link' %>   
         </li> 
         <li class="nav-item"> 
-          <a class="nav-link" href="#">Ohrclips, Ohrhaken, Ohrringe, Ohrstecker</a> 
+          <%= link_to 'Ohrclips, Ohrhaken, Ohrringe, Ohrstecker', home_ohrclips_ohrhaken_ohrringe_ohrstecker_path, class: 'nav-link' %> 
+        </li> 
+        <li class="nav-item">
+           <%= link_to 'Armbänder, Armring', home_armbander_armring_path, class: 'nav-link' %>   
+        </li> 
+        <li class="nav-item">
+         <%= link_to 'Broschen', home_broschen_path, class: 'nav-link' %>    
         </li> 
         <li class="nav-item"> 
-          <a class="nav-link" href="#">Armbänder, Armring</a> 
+           <%= link_to 'Mode, Brilllen', home_mode_brillen_path, class: 'nav-link' %> 
         </li> 
         <li class="nav-item"> 
-          <a class="nav-link" href="#">Broschen</a> 
-        </li> 
-        <li class="nav-item"> 
-          <a class="nav-link" href="#">Mode, Brille</a> 
-        </li> 
-        <li class="nav-item"> 
-          <a class="nav-link" href="#">Tasche, Clutch</a> 
+            <%= link_to 'Tasche, Clutch', home_tasche_clutch_path, class: 'nav-link' %>
         </li> 
       </ul>
     </div> 

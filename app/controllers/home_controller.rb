@@ -5,7 +5,7 @@ class HomeController < ApplicationController
   def wunschliste
   end
 
-  def mein konto
+  def meinkonto
   end
 
   def kontakt
@@ -29,40 +29,40 @@ class HomeController < ApplicationController
   def haarschumck
   end
 
-  def patentspangen-mini-patenspangen
+  def patentspangen_mini_patenspangen
   end
 
   def haarspangen
   end
 
-  def patenspange-aus-kunstharz-textil
+  def patenspange_aus_kunstharz_textil
   end
 
-  def haarreifen-haarbander
+  def haarreifen_haarbander
   end
 
-  def haarreifen-diamen-metall
+  def haarreifen_diamen_metall
   end
 
-  def haarreifen-aus-kunstoffharz-textil
+  def haarreifen_aus_kunstoffharz_textil
   end
 
-  def curlys-haarnadeln
+  def curlys_haarnadeln
   end
 
-  def haarschieber-seitenspange
+  def haarschieber_seitenspange
   end
 
-  def haarkamme-haarklammern
+  def haarkamme_haarklammern
   end
 
-  def haargreifer-wellenreifen-strahnchenhalter
+  def haargreifer_wellenreifen_strahnchenhalter
   end
 
-  def zopfgummis-zopfruschen
+  def zopfgummis_zopfruschen
   end
 
-  def haarchips und magnetchips
+  def haarchips_magnetchips
   end
 
   def accessoires
@@ -71,19 +71,19 @@ class HomeController < ApplicationController
   def ringe
   end
 
-  def ohrclips-ohrhaken-ohrringe-ohrstecker
+  def ohrclips_ohrhaken_ohrringe_ohrstecker
   end
 
-  def armbander-armring
+  def armbander_armring
   end
 
   def broschen
   end
 
-  def mode-brillen
+  def mode_brillen
   end
 
-  def tasche-clutch
+  def tasche_clutch
   end
 end
 

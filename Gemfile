@@ -17,6 +17,8 @@ gem 'sassc'
 gem "tzinfo-data", platforms: %i[ windows jruby ]
 gem "bootsnap", require: false
 
+
+
 group :development, :test do
   gem "debug", platforms: %i[ mri windows ]
 end
@@ -26,8 +28,8 @@ group :development do
 end
 
 group :development do
-  gem "better_errors"
-  gem "binding_of_caller"
+  gem "better_errors", require: false
+  gem "binding_of_caller", require: false
 end
 
 

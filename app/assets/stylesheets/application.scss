@@ -17,8 +17,28 @@
 
 
 @import "bootstrap";
+@import "~font-awesome/scss/font-awesome";
 
 body {
 	background: white;
 }
 
+.navbar {
+	padding: 0.05rem 1rem;
+}
+
+.offcanvas {
+	width: 250px; 
+}
+
+.offcanvas-body {
+	padding: 0.5rem;
+}
+
+.navbar-nav {
+	flex-direction: column;
+}
+
+.nav-link {
+	padding: .25rem 0.5rem;
+}

@@ -16,6 +16,9 @@ gem "cssbundling-rails"
 gem 'sassc'
 gem "tzinfo-data", platforms: %i[ windows jruby ]
 gem "bootsnap", require: false
+gem "psych", "~> 4.0"
+
+
 
 
 

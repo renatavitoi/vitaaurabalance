@@ -1,8 +1,7 @@
  Rails.application.routes.draw do
   root 'home#index'
 
-
-  get '/home', to: 'home#index'
+  get '/home', to: 'home#index', as: :home_root
   get 'index', to: 'home#index'
   get 'home/meinkonto', to: 'home#meinkonto'
   get 'home/wunschliste', to: 'home#wunschliste'
@@ -12,7 +11,7 @@
   get 'home/agb', to: 'home#agb'
   get 'home/widerrufsrecht', to: 'home#widerrufsrecht'
   get 'home/versandkosten', to: 'home#versandkosten'
-  get 'home/datenschutz', to: 'home#datenschutz'
+  get 'home/datenschutz', to: 'home#datenschutz', as: 'home_datenschutz'
   get 'home/impressum', to: 'home#impressum'
   get 'home/haarschumck', to: 'products#haarschumck'
   get 'home/patentspangenundmini-patenspangen', to: 'products#patentspangen_mini_patenspangen'
